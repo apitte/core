@@ -6,11 +6,11 @@ final class EndpointParameter
 {
 
 	public const TYPE_STRING = 'string';
-	public const TYPE_INTEGER = 'int';
+	public const TYPE_INTEGER = 'integer';
 	public const TYPE_FLOAT = 'float';
-	public const TYPE_BOOLEAN = 'bool';
-	public const TYPE_DATETIME = 'datetime';
-
+	public const TYPE_BOOLEAN = 'boolean';
+	public const TYPE_DATETIME = 'date-time';
+	
 	public const TYPES = [
 		self::TYPE_STRING,
 		self::TYPE_INTEGER,
